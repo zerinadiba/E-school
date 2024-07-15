@@ -1,0 +1,65 @@
+/*font links*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto&display=swap');
+/*common css start*/
+:root{
+  --black:#000000;
+  --white:#ffffff;
+  --red  :#FD511A;
+  --green:#21B573;	
+
+  --pop: "Poppins", sans-serif;    
+  --rob: "Roboto", sans-serif;;
+}
+body{
+	font-family: var(--pop);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black);
+
+}
+/*common css end*/
+/*header start*/
+header{
+	padding: 17px 0;
+	background-color:#e6f7e6;
+}
+.c_nav{}
+.logo{}
+.menu{}
+.menu ul li a{
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--black) !important;
+	padding: 0 20px !important;
+}
+.menu ul li a:hover{
+   color: var(--red)!important;
+}
+.nto:focus{
+	box-shadow: none;
+}
+.btn_cm{
+	background-color:var(--green) ;
+	border-radius: 33px;
+	font-family: var(--rob);
+	font-size: 16px;
+	color: var(--white);
+}
+.btn_search{
+	padding: 12px 28px;
+}
+.btn_cm:hover{
+	background-color: var(--red);
+	color: var(--white);
+}
+.btn_cm:active{
+	background-color: var(--red) !important;
+	color: var(--white) !important;
+	border:1px solid transparent;
+}
+
+
+/*header end*/
+
+
